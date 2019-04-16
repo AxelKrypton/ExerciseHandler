@@ -5,7 +5,6 @@
 !.gitignore
 !README.md
 !ThemeExamples/
-!MakeThemeExamples/
-!MakeThemeExamples/Exercises/
-!MakeThemeExamples/Exercises/*
-!MakeThemeExamples/TexLocaldefs.tex
+!Exercises/
+!Exercises/*
+!TexLocaldefs.tex
