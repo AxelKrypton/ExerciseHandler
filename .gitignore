@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files (https://git-scm.com/docs/gitignore)
+!.gitignore
+!README.md
+!ThemeExamples/
+!MakeThemeExamples/
+!MakeThemeExamples/Exercises/
+!MakeThemeExamples/Exercises/*
+!MakeThemeExamples/TexLocaldefs.tex
