@@ -8,5 +8,5 @@ This folder on an orphan branch is intended to be used to produce consistent the
 1. Get from the `Exercises` folder on this branch the `Fermat.tex` and the `Solitary.tex` exercises.
 1. Get the `TexLocaldefs.tex` file as well and create an exercise sheet with the two exercises just copied.
 1. Convert the exercise-sheet `PDF` file to a `png` e.g. [here](https://pdf2png.com/).
-1. Add the png file to the orphan branch, commit it and push.
-1. Update the `README` file on the master branch.
+1. Clone the Wiki repository and add your png file to the **`ThemeExamples`** folder, commit it and push.
+1. Update the `README` file on the master branch of the `Exercise Handler`.
