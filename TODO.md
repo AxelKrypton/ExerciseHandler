@@ -3,7 +3,7 @@
 Here we keep track of work that is either planned to be done for the future or done in between two consecutive releases.
 In particular, one can refer to the [Past work section](#past-work) to know about the changes that will be included in the next release.
 Please, keep in mind that this is more a file for the developers than for the users and some statements in the following may sound cryptic.
-Refer to the [CHANGELOG](https://github.com/AG-Philipsen/ExerciseHandler/blob/master/CHANGELOG.md) to read about notable changes to the project.
+Refer to the [CHANGELOG](CHANGELOG.md) to read about notable changes to the project.
 
 ### Legend
 

@@ -1,7 +1,7 @@
 # Exercise Handler
 
 [![version][Release-badge]](CHANGELOG.md) [![license][License-badge]](LICENSE.md)
-[![live][Live-badge]](https://github.com/AG-Philipsen/ExerciseHandler/releases/download/v1.0/ExerciseHandlerPresentation_v1.pdf)
+[![live][Live-badge]](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/uploads/e0d992de9d42c54b9199fd1b0c6a84a3/EH.pdf)
 
 The `Exercise Handler` is a tool to structure and automatise pretty much all of the tasks related to the organisation of tutorials for a given (e.g. academic) lecture by mostly producing, organising and compiling TeX files.
 
@@ -9,7 +9,7 @@ It makes it possible for you as tutor to devote your time to the sole content of
 Writing new ones from scratch, or even just extending or reusing existing ones in the pool that will get populated while the `Exercise Handler` is used, possibly by many tutors, over the semesters.
 
 At the same time, by making use of the `Exercise Handler`, you are not just trading your freedom in typesetting nice-looking customised exercise sheets for some more "spare" time.
-On the contrary, you can implement your own theme, rather than using the provided classic one, and you can even profit from the provided support for different languages (:uk: :us: :de: :fr: :it:).
+On the contrary, you can implement your own theme, rather than using the provided classic one, and you can even profit from the provided support for different languages (:gb: :us: :de: :fr: :it:).
 
 
 ## Main Features
@@ -33,11 +33,11 @@ Being written in bash, the `Exercise Handler` does not need to be compiled or in
 Once you will have cloned the repository, you will be able to run it straight away.
 
 The script has a helper, that can be obtained using the `--help` option, providing a compact *getting started*.
-For a complete overview you can refer to the [Wiki documentation](https://github.com/AG-Philipsen/Exercise_Handler/wiki) and in particular to [this page](https://github.com/AG-Philipsen/ExerciseHandler/wiki/How-it-works).
+For a complete overview you can refer to the [Wiki documentation](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/home) and in particular to [this page](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/how-it-works).
 
 Running the `Exercise Handler` in **set-up** mode (with command line option `-U`) will allow you to configure it with the needed information, by filling up the produced local definitions template.
 If this file is not filled out properly, you will be warned in successive runs.
-In the set-up phase you will also choose a LaTeX theme, possibly the provided classic one or your own (after having read some detail in the relevant [Wiki page](https://github.com/AG-Philipsen/ExerciseHandler/wiki/The-LaTeX-theme)).
+In the set-up phase you will also choose a LaTeX theme, possibly the provided classic one or your own (after having read some detail in the relevant [Wiki page](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/The-LaTeX-theme)).
 
 
 ## Available Themes
@@ -73,7 +73,7 @@ In the set-up phase you will also choose a LaTeX theme, possibly the provided cl
 
 ## Authors
 
-The `Exercise Handler` has been developed since 2016 by a few [contributors](https://github.com/AG-Philipsen/ExerciseHandler/graphs/contributors) willing to be contacted by users for suggestions, feedbacks, bug reports, etc.
+The `Exercise Handler` has been developed since 2016 by a few [contributors](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/graphs/master) willing to be contacted by users for suggestions, feedbacks, bug reports, etc.
 
 
 [Release-badge]: https://img.shields.io/badge/Last%20Release-v1.0-brightgreen.svg

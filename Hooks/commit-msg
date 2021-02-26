@@ -3,8 +3,8 @@
 # Hook script to check the commit message.
 #
 # ENFORCED POLICY:
-#  1) The first line of the commit must be at maximum 60 chars.
-#     This is the hard limit for GitHub at which a commit message is hidden.
+#  1) The first line of the commit must be at maximum 60 chars. This is
+#     often the hard limit at which a commit message is hidden in browsers.
 #     See https://chris.beams.io/posts/git-commit/ for more infortmation.
 #  2) The first line of the commit must have at least 8 chars.
 #  3) The first line must begin with a character
