@@ -49,7 +49,7 @@ In the set-up phase you will also choose a LaTeX theme, possibly the provided cl
 <table>
   <tr>
     <td>
-      <img src="/../theme_examples/ThemeExamples/ClassicTheme.png?raw=true" alt="Classic Theme" width="300">
+      <img src="https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/ThemeExamples/ClassicTheme.png?raw=true" alt="Classic Theme" width="300">
     </td>
   </tr>
 </table>
@@ -61,11 +61,11 @@ In the set-up phase you will also choose a LaTeX theme, possibly the provided cl
 <table>
   <tr>
     <td>
-      <img src="/../theme_examples/ThemeExamples/SummerBlackboardTheme.png?raw=true" alt="Summer Blackboard" width="300">
+      <img src="https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/ThemeExamples/SummerBlackboardTheme.png?raw=true" alt="Summer Blackboard" width="300">
     </td>
     <td>&nbsp;</td>
     <td>
-      <img src="/../theme_examples/ThemeExamples/WinterBlackboardTheme.png?raw=true" alt="Winter Blackboard" width="300">
+      <img src="https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/ThemeExamples/WinterBlackboardTheme.png?raw=true" alt="Winter Blackboard" width="300">
     </td>
   </tr>
 </table>
