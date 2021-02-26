@@ -1,7 +1,7 @@
 # Exercise Handler
 
 [![version][Release-badge]](CHANGELOG.md) [![license][License-badge]](LICENSE.md)
-[![live][Live-badge]](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/uploads/e0d992de9d42c54b9199fd1b0c6a84a3/EH.pdf)
+[![live][Live-badge]](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/LiveExamples/LiveExample_v1.0.pdf)
 
 The `Exercise Handler` is a tool to structure and automatise pretty much all of the tasks related to the organisation of tutorials for a given (e.g. academic) lecture by mostly producing, organising and compiling TeX files.
 
