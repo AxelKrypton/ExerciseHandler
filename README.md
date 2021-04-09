@@ -70,6 +70,18 @@ In the set-up phase you will also choose a LaTeX theme, possibly the provided cl
   </tr>
 </table>
 
+### Long title theme
+
+* Use of `\\` LaTeX code in the `\semester` or other commands in the `TexLocaldefs.tex` file should be accepted, but the theme is such that the full page width can be in principle used in the sheet header.
+* The irregular border is random and changes at every TeX compilation.  :sunglasses:
+
+<table>
+  <tr>
+    <td>
+      <img src="https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/ThemeExamples/LongTitleTheme.png?raw=true" alt="LongTitle Theme" width="300">
+    </td>
+  </tr>
+</table>
 
 ## Authors
 
