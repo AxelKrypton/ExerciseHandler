@@ -1,12 +1,29 @@
 function __static__AddWatermarkToSheet(){
     echo '\usepackage{draftwatermark}'
-    echo '\SetWatermarkAngle{90}'
-    echo '\SetWatermarkColor[rgb]{0.6,0.6,0.6}'
-    echo '\SetWatermarkFontSize{3mm}'
-    echo '\SetWatermarkScale{1}'
-    echo '\SetWatermarkHorCenter{0.98\paperwidth}'
-    echo '\SetWatermarkVerCenter{0.90\paperheight}'
-    echo '\SetWatermarkText{Produced with the \,{\color[rgb]{0.4,0.4,0.4}\texttt{ExerciseHandler}}}'
+    # The following branch in the TeX file is done in case at some point the maintainers
+    # of draftwatermark decide to remove their interface for legacy client code. The new
+    # key=value syntax has been introduced in v2.0 on 2020-03-14.
+    echo '\makeatletter'
+    echo '\@ifpackagelater{draftwatermark}{2020/01/01}{%'
+    echo '  \DraftwatermarkOptions{%'
+    echo '     angle=90,'
+    echo '     color={[rgb]{0.6,0.6,0.6}},'
+    echo '     fontsize=3mm,'
+    echo '     scale=1,'
+    echo '     hpos=0.98\paperwidth, hanchor=c,'
+    echo '     vpos=0.90\paperheight, vanchor=m,'
+    echo '     text={Produced with the \,{\color[rgb]{0.4,0.4,0.4}\texttt{ExerciseHandler}}}'
+    echo '  }'
+    echo '}{%'
+    echo '  \SetWatermarkAngle{90}'
+    echo '  \SetWatermarkColor[rgb]{{0.6,0.6,0.6}}' # https://tex.stackexchange.com/a/540961
+    echo '  \SetWatermarkFontSize{3mm}'
+    echo '  \SetWatermarkScale{1}'
+    echo '  \SetWatermarkHorCenter{0.98\paperwidth}'
+    echo '  \SetWatermarkVerCenter{0.90\paperheight}'
+    echo '  \SetWatermarkText{Produced with the \,{\color[rgb]{0.4,0.4,0.4}\texttt{ExerciseHandler}}}'
+    echo '}%'
+    echo '\makeatother'
 }
 
 function ProduceExerciseTexMainFile(){
