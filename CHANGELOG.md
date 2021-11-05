@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 This project does not adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html), but it follows some aspects inspired from it.
 In particular (even though this is not a strict, always respected rule), given a version number `X.Y`,
- - `Y` is incremented for minor changes (e.g. bug fixes) and 
+ - `Y` is incremented for minor changes (e.g. bug fixes) and
  - `X` for major ones (e.g. new features).
 
 Refer also to the [TODO](TODO.md) file to get more information of the changes occurred since the last release.
@@ -20,6 +20,7 @@ Refer also to the [TODO](TODO.md) file to get more information of the changes oc
 
 ## [Unreleased]
 
+* :sos: Fix creation of presence sheet with any theme different from the classic one which was broken if the exercise column was hidden.
 * :new: A watermark is printed on exercise sheets so that people might discover this tool looking at exercise sheets e.g. online.
 * :sos: Fixed minor bug in command line option parser. When no primary options were specified but still secondary ones were given, the script was terminating with a kind of obscure `bash` error. Now, in the same case, an understandable error is given to the user.
 * :sos: Fixed minor bug which was triggered using the `-P` option without any existing final sheet. An error was given but the script was not exiting at that point.
