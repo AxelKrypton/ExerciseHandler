@@ -20,6 +20,7 @@ Refer also to the [TODO](TODO.md) file to get more information of the changes oc
 
 ## [Unreleased]
 
+* :sos: Fail in a user-friendly way when provided new exercise name contains a slash.
 * :sos: Fix creation of presence sheet with any theme different from the classic one which was broken if the exercise column was hidden.
 * :new: A watermark is printed on exercise sheets so that people might discover this tool looking at exercise sheets e.g. online.
 * :sos: Fixed minor bug in command line option parser. When no primary options were specified but still secondary ones were given, the script was terminating with a kind of obscure `bash` error. Now, in the same case, an understandable error is given to the user.

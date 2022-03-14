@@ -36,8 +36,13 @@ function ProduceNewEmptyExerciseAndSolution(){
     if [[ ! ${newExerciseGlobalPath} =~ [.]tex$ ]]; then
         newExerciseGlobalPath+=".tex"
     fi
-    newSolutionGlobalPath="${EXHND_solutionPoolFolder}/${newExerciseGlobalPath}"
-    newExerciseGlobalPath="${EXHND_exercisePoolFolder}/${newExerciseGlobalPath}"
+    if [[ ${newExerciseGlobalPath} =~ / ]]; then
+        PrintError "No slash '/' is admitted into the new exercise filename. Sub-folders not supported."
+        exit 1
+    else
+        newSolutionGlobalPath="${EXHND_solutionPoolFolder}/${newExerciseGlobalPath}"
+        newExerciseGlobalPath="${EXHND_exercisePoolFolder}/${newExerciseGlobalPath}"
+    fi
     #Create exercise
     if [ -f "${newExerciseGlobalPath}" ]; then
         PrintWarning "Exercise \"$(basename "${newExerciseGlobalPath}")\" already existing. Creating corresponding solution..."
