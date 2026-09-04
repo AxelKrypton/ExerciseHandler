@@ -49,5 +49,5 @@ Refer also to the [TODO](TODO.md) file to get more information of the changes oc
 This has been the first release of the repository.
 
 
-[Unreleased]: https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/compare/v1.0...master
-[Version 1.0]: https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/releases/v1.0
+[Unreleased]: https://github.com/AxelKrypton/ExerciseHandler/compare/v1.0...main
+[Version 1.0]: https://github.com/AxelKrypton/ExerciseHandler/releases/tag/v1.0
