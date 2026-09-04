@@ -1,7 +1,7 @@
 # Exercise Handler
 
 [![version][Release-badge]](CHANGELOG.md) [![license][License-badge]](LICENSE.md)
-[![live][Live-badge]](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/LiveExamples/LiveExample_v1.0.pdf)
+[![live][Live-badge]](https://github.com/AxelKrypton/ExerciseHandler/wiki/LiveExamples/LiveExample_v1.0.pdf)
 
 The `Exercise Handler` is a tool to structure and automatise pretty much all of the tasks related to the organisation of tutorials for a given (e.g. academic) lecture by mostly producing, organising and compiling TeX files.
 
@@ -33,11 +33,11 @@ Being written in bash, the `Exercise Handler` does not need to be compiled or in
 Once you will have cloned the repository, you will be able to run it straight away.
 
 The script has a helper, that can be obtained using the `--help` option, providing a compact *getting started*.
-For a complete overview you can refer to the [Wiki documentation](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/home) and in particular to [this page](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/how-it-works).
+For a complete overview you can refer to the [Wiki documentation](https://github.com/AxelKrypton/ExerciseHandler/wiki/home) and in particular to [this page](https://github.com/AxelKrypton/ExerciseHandler/wiki/how-it-works).
 
 Running the `Exercise Handler` in **set-up** mode (with command line option `-U`) will allow you to configure it with the needed information, by filling up the produced local definitions template.
 If this file is not filled out properly, you will be warned in successive runs.
-In the set-up phase you will also choose a LaTeX theme, possibly the provided classic one or your own (after having read some detail in the relevant [Wiki page](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/The-LaTeX-theme)).
+In the set-up phase you will also choose a LaTeX theme, possibly the provided classic one or your own (after having read some detail in the relevant [Wiki page](https://github.com/AxelKrypton/ExerciseHandler/wiki/The-LaTeX-theme)).
 
 
 ## Available Themes
@@ -49,7 +49,7 @@ In the set-up phase you will also choose a LaTeX theme, possibly the provided cl
 <table>
   <tr>
     <td>
-      <img src="https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/ThemeExamples/ClassicTheme.png?raw=true" alt="Classic Theme" width="300">
+      <img src="https://github.com/AxelKrypton/ExerciseHandler/wiki/ThemeExamples/ClassicTheme.png?raw=true" alt="Classic Theme" width="300">
     </td>
   </tr>
 </table>
@@ -61,11 +61,11 @@ In the set-up phase you will also choose a LaTeX theme, possibly the provided cl
 <table>
   <tr>
     <td>
-      <img src="https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/ThemeExamples/SummerBlackboardTheme.png?raw=true" alt="Summer Blackboard" width="300">
+      <img src="https://github.com/AxelKrypton/ExerciseHandler/wiki/ThemeExamples/SummerBlackboardTheme.png?raw=true" alt="Summer Blackboard" width="300">
     </td>
     <td>&nbsp;</td>
     <td>
-      <img src="https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/ThemeExamples/WinterBlackboardTheme.png?raw=true" alt="Winter Blackboard" width="300">
+      <img src="https://github.com/AxelKrypton/ExerciseHandler/wiki/ThemeExamples/WinterBlackboardTheme.png?raw=true" alt="Winter Blackboard" width="300">
     </td>
   </tr>
 </table>
@@ -78,14 +78,14 @@ In the set-up phase you will also choose a LaTeX theme, possibly the provided cl
 <table>
   <tr>
     <td>
-      <img src="https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/wikis/ThemeExamples/LongTitleTheme.png?raw=true" alt="LongTitle Theme" width="300">
+      <img src="https://github.com/AxelKrypton/ExerciseHandler/wiki/ThemeExamples/LongTitleTheme.png?raw=true" alt="LongTitle Theme" width="300">
     </td>
   </tr>
 </table>
 
 ## Authors
 
-The `Exercise Handler` has been developed since 2016 by a few [contributors](https://gitlab.itp.uni-frankfurt.de/lattice-qcd/ag-philipsen/ExerciseHandler/-/graphs/master) willing to be contacted by users for suggestions, feedbacks, bug reports, etc.
+The `Exercise Handler` has been developed since 2016 by a few [contributors](https://github.com/AxelKrypton/ExerciseHandler/graphs/contributors?all=1) willing to be contacted by users for suggestions, feedbacks, bug reports, etc.
 
 
 [Release-badge]: https://img.shields.io/badge/Last%20Release-v1.0-brightgreen.svg
